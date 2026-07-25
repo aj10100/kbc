@@ -94,19 +94,5 @@ If you see 404 errors, the code automatically tries the next model in the chain.
 The old SDK google-generativeai is deprecated as of November 2025.
 This project uses the new google-genai SDK.
 bash
-
-# Right (current)
-
-pip install google-genai
-API Key Issues
-Go to Google AI Studio
-Create a new API key
-Copy it exactly (no extra spaces)
-Paste into .env file: GEMINI_API_KEY=your_actual_key
-Still getting errors?
-Run this diagnostic:
-bash
-python -c "from google import genai; print('SDK OK')"
-python -c "import os; print('Key found:', bool(os.environ.get('GEMINI_API_KEY')))"
 License
 Personal / Portfolio Project
