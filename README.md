@@ -95,10 +95,6 @@ The old SDK google-generativeai is deprecated as of November 2025.
 This project uses the new google-genai SDK.
 bash
 
-# Wrong (old)
-
-pip install google-generativeai
-
 # Right (current)
 
 pip install google-genai
